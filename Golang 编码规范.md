@@ -106,7 +106,7 @@ import "../net"
 import "github.com/repo/proj/src/net"
 ```
 ## 4 代码结构
-### Structure code as in Godoc layout
+### 4.1 Structure code as in Godoc layout
 If you looks at the Go doc layout, each sections is ordered by the following format,
 * package description
 * package constanta
@@ -117,17 +117,17 @@ If you looks at the Go doc layout, each sections is ordered by the following for
 Builtin functions, like init(), main(), and TestMain() must be at the bottom of the source code. As an example see net package.
   
 **Rationale**: Following go doc format will make code easy to read, because we know where each of section is located.
-### Package must have a file with the same name
+### 4.2 Package must have a file with the same name
 Package named mypkg must have source file with the name mypkg.go. This file will be used to declare global variables, constanta, and init() function.
 
 **Rationale**: easy to search where global variables, constanta, and init() defined.
-### One type (struct/interface) per file
+### 4.3 One type (struct/interface) per file
 The filename must follow the name of the type. For example, package X have two exported structs: Y and Z. So, in the directory X there would be two files: Y.go and Z.go.  
 
 **Rationale:**
 * Easy to search where type is defined
 * Modularization by files
-### Package that create binary should be in "./cmd" directory
+### 4.4 Package that create binary should be in "./cmd" directory
 One of the things that I learned later in software development was when writing code, pretend that your code will be used by other developers, which means, write library first, program later. This is a mistake that we have been taught since college, because we learn to write program not library.
 
 Go, in their subtle way, embrace this kind of thinking when developing software.
