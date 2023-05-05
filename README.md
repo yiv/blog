@@ -7,3 +7,5 @@
 * [【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。](https://github.com/AobingJava/JavaFamily)![GitHub Repo stars](https://img.shields.io/github/stars/AobingJava/JavaFamily?style=social)
 * [HackerMind](https://github.com/Ascotbe/HackerMind)
 * [实用性开发人员安全须知](https://github.com/FallibleInc/security-guide-for-developers)
+* [The System Design Primer](https://github.com/donnemartin/system-design-primer)![GitHub Repo stars](https://img.shields.io/github/stars/donnemartin/system-design-primer?style=social): About
+Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
